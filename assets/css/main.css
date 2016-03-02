@@ -1,0 +1,101 @@
+/* Media Queries
+----------------*/
+/* Imported Fonts
+-----------------*/
+@import url(https://fonts.googleapis.com/css?family=Dynalight);
+/* Global Typography Styles
+---------------------------*/
+body h1 {
+  color: #523b2f;
+  font-size: 4em;
+  line-height: 1.1; }
+body p {
+  font-size: 1.1em; }
+
+#page-header-bg[data-alignment="right"] .span_6 {
+  bottom: 0 !important;
+  top: 0 !important;
+  background: rgba(115, 195, 196, 0.7);
+  float: right;
+  height: 100%;
+  width: 50%; }
+  #page-header-bg[data-alignment="right"] .span_6 h1 {
+    line-height: 1.3;
+    font-size: 5.5em;
+    margin-top: 20%;
+    text-align: center; }
+
+/* Custom Footer Styles
+-----------------------*/
+#footer-nav {
+  padding: 3em 0; }
+  #footer-nav ul {
+    text-align: center; }
+  #footer-nav li {
+    display: inline; }
+  #footer-nav a {
+    font-size: 1.5em;
+    margin: 0 1em;
+    text-transform: uppercase; }
+    #footer-nav a:hover {
+      color: #FFF !important; }
+
+/* Necar Slider Custom Styles
+-----------------------------*/
+.home-wedding-slide {
+  text-align: center; }
+  .home-wedding-slide .content h2 {
+    letter-spacing: .2em; }
+    .home-wedding-slide .content h2 span {
+      letter-spacing: 0;
+      font-family: 'Dynalight';
+      font-size: 3em;
+      line-height: 1;
+      text-transform: none; }
+
+/* Custom Styles for the Homepage
+---------------------------------*/
+.home .intro p {
+  font-size: 1.3em; }
+.home #feature-boxes h2 {
+  color: #73c3c4;
+  font-size: 2em;
+  font-weight: normal;
+  letter-spacing: .05em;
+  padding: .5em 0 0; }
+  .home #feature-boxes h2:after {
+    content: url(../img/decorative_heading.png);
+    display: block;
+    padding-top: .2em; }
+.home #feature-boxes p {
+  color: #523b2f;
+  font-size: 1.3em; }
+
+/* Secondary Feature Pages
+--------------------------*/
+.feature-page h1 {
+  background: url(../img/decorative_heading.png) left no-repeat;
+  background-size: auto 100%;
+  font-family: Alegreya;
+  font-size: 3.2em;
+  font-weight: normal;
+  letter-spacing: .3em;
+  text-transform: uppercase; }
+.feature-page h2 {
+  font-size: 2.5em;
+  font-weight: normal;
+  letter-spacing: .3em; }
+.feature-page h3 {
+  font-size: 2em;
+  font-weight: normal;
+  letter-spacing: .05em; }
+.feature-page p {
+  font-size: 1.5em;
+  line-height: 1.5; }
+.feature-page .nectar-fancy-ul ul {
+  padding-left: 1.5em; }
+.feature-page li {
+  font-size: 1.7em;
+  margin: .7em 0; }
+
+/*# sourceMappingURL=main.css.map */
