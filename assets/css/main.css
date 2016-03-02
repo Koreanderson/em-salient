@@ -1,101 +1,59 @@
-/* Media Queries
-----------------*/
-/* Imported Fonts
------------------*/
-@import url(https://fonts.googleapis.com/css?family=Dynalight);
-/* Global Typography Styles
----------------------------*/
-body h1 {
-  color: #523b2f;
-  font-size: 4em;
-  line-height: 1.1; }
-body p {
-  font-size: 1.1em; }
+/*
+Error: File to import not found or unreadable: pages/_feature-page.scss.
+       Load path: /Users/Brian/work/em/apollo/wp-content/themes/EM-salient/assets/sass
+        on line 14 of sass/main.scss
 
-#page-header-bg[data-alignment="right"] .span_6 {
-  bottom: 0 !important;
-  top: 0 !important;
-  background: rgba(115, 195, 196, 0.7);
-  float: right;
-  height: 100%;
-  width: 50%; }
-  #page-header-bg[data-alignment="right"] .span_6 h1 {
-    line-height: 1.3;
-    font-size: 5.5em;
-    margin-top: 20%;
-    text-align: center; }
+9: 	"components/_footer.scss",
+10: 	"components/_slides.scss"
+11: ;
+12: @import
+13: 	"pages/_homepage.scss",
+14: 	"pages/_feature-page.scss"
+15: ;
 
-/* Custom Footer Styles
------------------------*/
-#footer-nav {
-  padding: 3em 0; }
-  #footer-nav ul {
-    text-align: center; }
-  #footer-nav li {
-    display: inline; }
-  #footer-nav a {
-    font-size: 1.5em;
-    margin: 0 1em;
-    text-transform: uppercase; }
-    #footer-nav a:hover {
-      color: #FFF !important; }
-
-/* Necar Slider Custom Styles
------------------------------*/
-.home-wedding-slide {
-  text-align: center; }
-  .home-wedding-slide .content h2 {
-    letter-spacing: .2em; }
-    .home-wedding-slide .content h2 span {
-      letter-spacing: 0;
-      font-family: 'Dynalight';
-      font-size: 3em;
-      line-height: 1;
-      text-transform: none; }
-
-/* Custom Styles for the Homepage
----------------------------------*/
-.home .intro p {
-  font-size: 1.3em; }
-.home #feature-boxes h2 {
-  color: #73c3c4;
-  font-size: 2em;
-  font-weight: normal;
-  letter-spacing: .05em;
-  padding: .5em 0 0; }
-  .home #feature-boxes h2:after {
-    content: url(../img/decorative_heading.png);
-    display: block;
-    padding-top: .2em; }
-.home #feature-boxes p {
-  color: #523b2f;
-  font-size: 1.3em; }
-
-/* Secondary Feature Pages
---------------------------*/
-.feature-page h1 {
-  background: url(../img/decorative_heading.png) left no-repeat;
-  background-size: auto 100%;
-  font-family: Alegreya;
-  font-size: 3.2em;
-  font-weight: normal;
-  letter-spacing: .3em;
-  text-transform: uppercase; }
-.feature-page h2 {
-  font-size: 2.5em;
-  font-weight: normal;
-  letter-spacing: .3em; }
-.feature-page h3 {
-  font-size: 2em;
-  font-weight: normal;
-  letter-spacing: .05em; }
-.feature-page p {
-  font-size: 1.5em;
-  line-height: 1.5; }
-.feature-page .nectar-fancy-ul ul {
-  padding-left: 1.5em; }
-.feature-page li {
-  font-size: 1.7em;
-  margin: .7em 0; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+sass/main.scss:14
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:45:in `import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:28:in `imported_file'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:37:in `css_import?'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:293:in `watch'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin.rb:108:in `method_missing'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: pages/_feature-page.scss.\A        Load path: /Users/Brian/work/em/apollo/wp-content/themes/EM-salient/assets/sass\A         on line 14 of sass/main.scss\A \A 9: 	\"components/_footer.scss\",\A 10: 	\"components/_slides.scss\"\A 11: ;\A 12: @import\A 13: 	\"pages/_homepage.scss\",\A 14: 	\"pages/_feature-page.scss\"\A 15: ;"; }
