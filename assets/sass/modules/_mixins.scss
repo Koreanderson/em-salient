@@ -2,16 +2,16 @@
 ----------------*/
 
 @mixin bp($point) {
-  // assume that the default is 'small'
-  // usage: @include bp(large) { ... }
-  @if $point == small {  
-    @media only screen and (max-width: 479px) { @content; }
-  }
-  @else if $point == medium { 
-    @media only screen and (max-width: 690px) { @content; }
-  }
-  @else if $point == large { 
-    @media only screen and (max-width: 1000px) { @content; }
-  }
+	// assume that the default is 'small'
+	// usage: @include bp(large) { ... }
+	@if $point == sm {  
+		@media only screen and (min-width: 479px) { @content; }
+	}
+	@else if $point == md { 
+		@media only screen and (min-width: 690px) { @content; }
+	}
+	@else if $point == lg { 
+		@media only screen and (min-width: 1000px) { @content; }
+	}
 }
 
